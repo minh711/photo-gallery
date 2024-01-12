@@ -1,0 +1,51 @@
+.list {
+  position: absolute;
+  width: 100%;
+}
+
+.categories {
+  width: calc(100% - 4em);
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.categories::after {
+  content: '';
+  width: calc(100% - 4em);
+  height: 52px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(90deg, white, rgba(255, 255, 255, 0) 1.5em,  rgba(255, 255, 255, 0) calc(100% - 4.5em), white calc(100% - 2em), white);
+  pointer-events: none;
+}
+
+.categories::before {
+  content: '';
+  position: absolute;
+  height: 52px;
+  width: 2em;
+  right: 4em;
+  z-index: 1;
+}
+
+.categories .scroll {
+  width: 100%;
+  overflow: hidden;
+  padding-right: 2em;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.scroll.active {
+  overflow-x: hidden;
+  padding-bottom: 500px;
+}
+
+.tags {
+  width: 4em;
+}
+
+.tags .dropdown-group {
+  padding-right: 0;
+}

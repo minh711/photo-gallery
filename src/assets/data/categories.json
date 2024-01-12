@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1, 
+    "category": "Pets",
+    "hasChild": false,
+    "parentCategoryId": 3
+  },
+  {
+    "id": 2, 
+    "category": "Wilds",
+    "hasChild": false,
+    "parentCategoryId": 3
+  },
+  {
+    "id": 3,
+    "category": "Animals",
+    "hasChild": true,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 4,
+    "category": "Bugs",
+    "hasChild": false,
+    "parentCategoryId": 3
+  },
+  {
+    "id": 5,
+    "category": "Wallpapers",
+    "hasChild": false,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 6,
+    "category": "Nature",
+    "hasChild": false,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 7,
+    "category": "Architecture & Interiors",
+    "hasChild": false,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 8,
+    "category": "Experimental",
+    "hasChild": false,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 9,
+    "category": "Textures & Patterns",
+    "hasChild": false,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 10,
+    "category": "Film",
+    "hasChild": false,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 11,
+    "category": "Travel",
+    "hasChild": false,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 12,
+    "category": "Photography",
+    "hasChild": true,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 13,
+    "category": "Street Photography",
+    "hasChild": false,
+    "parentCategoryId": 12
+  },
+  {
+    "id": 14,
+    "category": "Portrait Photography",
+    "hasChild": false,
+    "parentCategoryId": 12
+  },
+  {
+    "id": 15,
+    "category": "Food & Drink",
+    "hasChild": false,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 16,
+    "category": "People",
+    "hasChild": false,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 17,
+    "category": "Health & Wellness",
+    "hasChild": false,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 18,
+    "category": "Spirituality",
+    "hasChild": false,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 19,
+    "category": "Events",
+    "hasChild": false,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 20,
+    "category": "Fashion",
+    "hasChild": true,
+    "parentCategoryId": 0
+  },
+  {
+    "id": 21,
+    "category": "Men Fashion",
+    "hasChild": false,
+    "parentCategoryId": 20
+  },
+  {
+    "id": 22,
+    "category": "Women Fashion",
+    "hasChild": false,
+    "parentCategoryId": 20
+  },
+  {
+    "id": 23,
+    "category": "Animals Fashion",
+    "hasChild": false,
+    "parentCategoryId": 20
+  },
+  {
+    "id": 24,
+    "category": "Aliens Fashion",
+    "hasChild": false,
+    "parentCategoryId": 20
+  }
+]
