@@ -17,7 +17,7 @@ export function Display(props) {
   });
 
   return `
-    <link rel="stylesheet" href="../src/components/Display/Display.css">
+    <link rel="stylesheet" href="/src/components/Display/Display.css">
 
     <div class="container">
 

@@ -1,8 +1,8 @@
 import categories from "../../assets/data/categories.json" assert {type: 'json'};
 
 export function List() {
-  return `
-    <link rel="stylesheet" href="../src/components/List/List.css">
+  return /*html*/`
+    <link rel="stylesheet" href="/src/components/List/List.css">
     
     <div class="list d-flex">
 
@@ -171,7 +171,7 @@ function renderDropdown(parentCate) {
     }
   });
 
-  rs += 
+  rs += /*html*/
   `
     <div class="dropdown-group d-flex align-items-center p-relative">
     

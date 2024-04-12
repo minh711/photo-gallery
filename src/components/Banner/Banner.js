@@ -8,7 +8,7 @@ let totalImages = Object.keys(images).length;
 export function Banner() {
 
   return `
-    <link rel="stylesheet" href="../src/components/Banner/Banner.css">
+    <link rel="stylesheet" href="/src/components/Banner/Banner.css">
 
     <div class="banner bg-primary">
 

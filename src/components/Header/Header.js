@@ -3,7 +3,7 @@ import { List } from "../List/List.js";
 export function Header() {
 
   return `
-    <link rel="stylesheet" href="../src/components/Header/Header.css">
+    <link rel="stylesheet" href="/src/components/Header/Header.css">
     
     <div class="header bg p-fixed top-0 w-100 shadow-drop">
       

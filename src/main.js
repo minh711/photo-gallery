@@ -1,4 +1,4 @@
 
-import { App } from "../components/App.js";
+import { App } from "./pages/HomePage/index.js";
 
 document.querySelector("#root").innerHTML = App();

@@ -1,7 +1,7 @@
 
 export function Footer() {
   return `
-    <link rel="stylesheet" href="../src/components/Footer/Footer.css">
+    <link rel="stylesheet" href="/src/components/Footer/Footer.css">
     
     <div class="footer bg-primary">
 
